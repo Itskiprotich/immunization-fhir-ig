@@ -3,11 +3,11 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: fhir.nigerian
-canonical: https://fhir.nigerian
-name: Nigerian EIR
-# title: Example Title
-# description: Example Implementation Guide for getting started with SUSHI
+id: fhir.immunization
+canonical: https://fhir.immunization
+name: Immunization Guide
+title: Immunization Guide
+description: Immunization Guide
 status: draft # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
