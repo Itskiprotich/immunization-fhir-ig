@@ -22,6 +22,7 @@ Description: "A profile for patient registration capturing essential details suc
 Instance: SamplePatient
 InstanceOf: PatientRegistration
 Usage: #example
+Title: "Patient Example"
 Description: "An example patient registration instance based on the profile."
 * name.given[0] = "Japheth"
 * name.family = "Kiprotich"

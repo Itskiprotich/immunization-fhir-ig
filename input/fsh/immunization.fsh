@@ -11,3 +11,14 @@ Description: "A profile for capturing immunization details, including vaccine in
 * patient.reference 1..1 MS // Reference to the Patient resource
 * occurrenceDateTime 1..1 MS // Date and time of immunization is mandatory
 
+
+Instance: SampleImmunization
+InstanceOf: ImmunizationRegistration
+Usage: #example
+Title: "Immunization Example"
+Description: "An example Immunization registration instance based on the profile."
+* status = #completed 
+* vaccineCode.text = "Sample Vaccine"
+* lotNumber = "12345"
+* patient.reference = "Patient/SamplePatient"
+* occurrenceDateTime = "2015-02-09T11:04:15.817-05:00" 
